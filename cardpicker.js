@@ -85,7 +85,7 @@ var jumpscare = new Audio('./assets/lobster.mp3');
 var selectedCard;
 
 function startup() {
-    document.getElementById("deck").addEventListener("onClick", drawCard);
+    //document.getElementById("deck").addEventListener("onClick", drawCard);
     initDeck();
 }
 

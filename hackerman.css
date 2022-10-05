@@ -78,6 +78,8 @@ td {
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+	/* transform: rotateY(0deg); */
+	/* visibility: visible; */
 }
 
 .old-centered {
@@ -99,14 +101,13 @@ td {
 	transform: translate(-50%, -50%);
 }
 .cornered {
+	border-radius: 1em;
+	padding: 1em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);    /* Older Gecko browser */
-	-ms-transform: translate(-50%, -50%);     /* IE9+ */
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
 }
 
 .front, .back {
