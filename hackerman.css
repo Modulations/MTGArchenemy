@@ -46,7 +46,7 @@ td {
 
 /* flip the pane when hovered */
 .flip-container.clicked .flipper {
-	transform: rotateY(180deg);
+	transform: rotateY(360deg);
 }
 
 .flip-container, .front, .back {
@@ -77,9 +77,9 @@ td {
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+	/* transform: rotateY(180deg); */
 	/* transform: rotateY(0deg); */
-	/* visibility: visible; */
+	visibility: visible;
 }
 
 .old-centered {

@@ -21,7 +21,9 @@
         $('#cardback')
         .mousedown(function() {
             $(this).closest('.flip-container').toggleClass('clicked');
-            $(this).css('transform, rotateY(180deg)');
+            // $(this).css('transform', 'rotateY(180deg)');
+            $(this).css('visibility', 'hidden');
+            $('#deck').css('visibility', 'visible');
             drawCard();
         });
     </script>
